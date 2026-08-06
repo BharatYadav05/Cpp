@@ -1,2 +1,2 @@
-# c-_practice
+# Cpp_practice
 all c++ practice questions 
