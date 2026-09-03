@@ -4,38 +4,39 @@ using namespace std;
 class Bank
 {
 private:
-    double deposite;
+	double deposite;
 
 public:
-    Bank()
-    {
-        dept = "Mode_of_Payment";
-    }
-    string name;
-    string dept;
+	Bank()
+	{
+		Mode_of_Payment="Cash";
+	}
+	string name;
+	string Mode_of_Payment;
 
-    void changeDept(string newDept)
-    {
-        dept = "newDept";
-    }
-    void setdeposite(double S)
-    {
-        deposite = S;
-    }
+	void changeMode(string newDept)
+	{
+		Mode_of_Payment = "newMode_of_Payment";
+	}
+	void setdeposite(double S)
+	{
+		deposite = S;
+	}
 
-    double getdeposite()
-    {
-        return deposite;
-    }
+	double getdeposite()
+	{
+		return deposite;
+	}
 };
 
-int main(){
-    Bank e1;
-    e1.name ="Bharat";
-    e1.setdeposite(500000);
+int main() {
+	Bank e1;
+	e1.name ="Bharat";
+	e1.setdeposite(500000);
 
-    cout<<e1.name<<endl;
-    cout<<e1.getdeposite()<<endl;
+	cout<<e1.name<<endl;
+	cout<<e1.getdeposite()<<endl;
+	cout<<e1.Mode_of_Payment<<endl;
 
-    return 0;
+	return 0;
 }
