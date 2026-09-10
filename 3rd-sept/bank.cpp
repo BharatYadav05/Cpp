@@ -14,7 +14,7 @@ public:
 	string name;
 	string Mode_of_Payment;
 
-	void changeMode(string newDept)
+	void changeMode(string newTran)
 	{
 		Mode_of_Payment = "newMode_of_Payment";
 	}
