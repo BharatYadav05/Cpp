@@ -1,0 +1,1 @@
+Write a C++ program to demonstrate multilevel inheritance. Create a base class Person containing the person's name and age, a derived class Student containing the roll number and course, and another derived class Result containing marks in three subjects. Accept and display all details and calculate the total and percentage of the student.
