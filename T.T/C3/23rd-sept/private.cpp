@@ -1,23 +1,22 @@
-#include<iostream>
-
+#include <iostream>
 using namespace std;
- class Student{
+class Student
+{
 private:
-int marks;
+    int marks;
 
 public:
-void display(int n){
-marks = n;
-cout<<marks;
-}
+    void display(int n)
+    {
+        marks = n;
+        cout << marks;
+    }
 };
 
-int main (){ 
+int main()
+{
 
-Student obj;
+    Student obj;
 
-obj.display(9); 
-
-
-
- }
+    obj.display(9);
+}

@@ -30,5 +30,5 @@ int main(){
     a obj2;
     c obj1;
     obj1.d3();
-    // obj2.d1();     -- WRONG 
+    // obj2.d1();     -- WRONG  (protected)
 }

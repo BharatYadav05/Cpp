@@ -1,17 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-class student{
+class student
+{
 
-    public:
-    student(){
-        cout<<"This is constructor"<<endl;
+public:
+    student()
+    {
+        cout << "This is constructor" << endl;
     }
 };
-int main (){
+int main()
+{
 
-student obj1;
-
+    student obj1;
 
     return 0;
 }

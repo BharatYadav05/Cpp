@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 class student
-{ 
+{
 private:
     string name;
     int roll_no, math, science, computer;
@@ -64,5 +64,4 @@ int main()
     student obj4("Aditya", 04, 95, 80, 95);
     obj4.display();
     obj4.result();
-
 }

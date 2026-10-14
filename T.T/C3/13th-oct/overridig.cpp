@@ -18,7 +18,7 @@ class Cat : public Animal{
     void sound() override{
         cout<<"Cat - Meow"<<endl;
     }
-};
+};  
 
 int main(){
     Animal *ace;
