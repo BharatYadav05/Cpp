@@ -1,3 +1,5 @@
 *.exe
 /*.exe
 bin/*.exe
+*.jpg
+*.png
